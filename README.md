@@ -1,16 +1,16 @@
 ## System Disk Information Collector
-A package for collect information about disk drive means SSD/HDD etc of a windows operating system.
+A package for collect information about OS, CPU and Disk Drive of a windows operating system.
 
-You can collect disk information from any device with just a function call. you will be able to collect the `disk name`, `disk model`, `disk size` and `disk serial number` information of a windows system with this package.
+You can collect disk information from any device with just a function call. you will be able to collect the `OS Information`, `CPU Information` and `Disk Information` information of a windows system with this package.
 
 **Install Package**
 ```
-cargo add system_diskinfo
+cargo add system_info
 ```
 
 **Add Dependencies**
 ```
-system_diskinfo = "0.1.4"
+system_diskinfo = "0.1.0"
 ```
 
 ### **Modules**
@@ -39,7 +39,7 @@ We are printing here the total capacity information about the disk drive of a wi
 *cargo.toml*
 ```
 [dependencies]
-system_diskinfo = "0.1.4"
+system_info = "0.1.0"
 ```
 
 *main.rs*
