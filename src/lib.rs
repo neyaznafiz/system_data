@@ -1,8 +1,8 @@
-pub mod disk_info;
-pub use disk_info as DiskInfo;
-
 pub mod cpu_info;
 pub use cpu_info as CpuInfo;
+
+pub mod disk_info;
+pub use disk_info as DiskInfo;
 
 mod sanitize_data;
 
