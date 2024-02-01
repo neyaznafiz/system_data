@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "system_info"
+name = "system_data"
 version = "0.1.0"

@@ -5,12 +5,12 @@ You can collect disk information from any device with just a function call. you 
 
 **Install Package**
 ```
-cargo add system_info
+cargo add system_data
 ```
 
 **Add Dependencies**
 ```
-system_diskinfo = "0.1.0"
+system_data = "0.1.0"
 ```
 
 ### **Modules**
@@ -38,15 +38,15 @@ We are printing here the total capacity information about the disk drive of a wi
 *cargo.toml*
 ```
 [dependencies]
-system_info = "0.1.0"
+system_data = "0.1.0"
 ```
 
 *main.rs*
 ```
-use system_info;
+use system_data;
 
 fn main() {
-  let cpu_name = system_info::CpuInfo::name();
+  let cpu_name = system_data::CpuInfo::name();
   println!("CPU Name: {}",  cpu_name);
 }
 ```
