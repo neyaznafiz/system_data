@@ -9,7 +9,7 @@ readme = "README.md"
 documentation = "https://docs.rs/system_info"
 homepage = "https://github.com/neyaznafiz/system_info"
 repository = "https://github.com/neyaznafiz/system_info"
-keywords = ["system", "os", "cpu", "disk",]
+keywords = ["system", "os", "cpu", "disk", "info"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
