@@ -17,11 +17,11 @@ fn main()  {
   // println!("{:?}", disk_size);
   // println!("{:?}", disk_serial_number);
 
-  // let cpu_name = CpuInfo::name();
+  let cpu_name = CpuInfo::name();
   // let cpu_cores = CpuInfo::cores();
   // let cpu_id = CpuInfo::processor_id();
 
-  // println!("{:?}", cpu_name);
+  println!("{:?}", cpu_name);
   // println!("{:?}", cpu_cores);
   // println!("{:?}", cpu_id);
 }
