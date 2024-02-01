@@ -1,12 +1,14 @@
 [package]
 name = "system_info"
 version = "0.1.0"
-authors = ["neyaznafiz"]
+authors = ["neyaznafiz <neyaznafiz@outlook.com>"]
 edition = "2021"
 description = "A package for collect information about system's OS, CPU and Disk_Drive"
 license = "MIT"
-documentation = "https://docs.rs/system_diskinfo"
-repository = "https://github.com/neyaznafiz/system-diskinfo"
+readme = "README.md"
+documentation = "https://docs.rs/system_info"
+homepage = "https://github.com/neyaznafiz/system_info"
+repository = "https://github.com/neyaznafiz/system_info"
 keywords = ["system", "os", "cpu", "disk",]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
