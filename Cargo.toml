@@ -1,0 +1,20 @@
+[package]
+name = "system_info"
+version = "0.1.0"
+authors = ["neyaznafiz"]
+edition = "2021"
+description = "A package for collect information about system's OS, CPU and Disk_Drive"
+license = "MIT"
+documentation = "https://docs.rs/system_diskinfo"
+repository = "https://github.com/neyaznafiz/system-diskinfo"
+keywords = ["system", "os", "cpu", "disk",]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = 3
